@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 import { stepsData } from "../data/stepsData"; // Import the data
 import "../App.css";
-
+import Intro from "./Intro";
 import NavbarComponent from "./NavbarComponent"; // Import the Navbar
 
 
@@ -32,6 +32,7 @@ const DSAAccordion = () => {
   return (
     <>
       <NavbarComponent />
+      <Intro />
       <div className="container-fluid min-vh-100 p-4">
         {stepsData.map((step, stepIndex) => (
           <div key={stepIndex} className="mb-3">
