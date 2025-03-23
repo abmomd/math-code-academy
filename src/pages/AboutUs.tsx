@@ -1,7 +1,6 @@
 import NavbarComponent from "../components/NavbarComponent";
 import "./AboutUs.css"; // Add CSS for styling
 import profileImg from "../images/profile.jpg";
-import ContactUs from "./ContactUs";
 
 const AboutUs = () => {
   const courses = [
