@@ -14,8 +14,9 @@ body {
 /* Step Section */
 .step-title {
   padding: 15px;
-  background: linear-gradient(45deg,  #aef9fd, #ffffff);
-  color: rgb(0, 0, 0);
+  background: linear-gradient(45deg,  #000000e3, #000000);
+  box-shadow: 0 0 5px rgba(13, 247, 255, 0.7);
+  color: rgb(255, 255, 255);
   font-size: 1.2rem;
   font-weight: bold;
   border-radius: 8px;
@@ -28,7 +29,7 @@ body {
 
 .step-title:hover,
 .step-title.active {
-  background: linear-gradient(45deg, #b3e4ff, #b3e4ff);
+  background: linear-gradient(45deg, #01eaff, #000000);
   box-shadow: 0 0 10px rgba(255, 111, 97, 0.7);
 }
 
