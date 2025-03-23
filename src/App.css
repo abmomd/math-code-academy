@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+  background-color: #121212;
+  color: white;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffe1df; /* Coral */
+  margin-bottom: 20px;
+}
+
+/* Step Section */
+.step-title {
+  padding: 15px;
+  background: linear-gradient(45deg,  #aef9fd, #ffffff);
+  color: rgb(0, 0, 0);
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.step-title:hover,
+.step-title.active {
+  background: linear-gradient(45deg, #b3e4ff, #b3e4ff);
+  box-shadow: 0 0 10px rgba(255, 111, 97, 0.7);
+}
+
+/* Lecture Section */
+.lecture {
+  margin-left: 20px;
+}
+
+.lecture-title {
+  padding: 12px;
+  background: linear(45deg, #bfc0c1, #c01515);
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.lecture-title:hover,
+.lecture-title.active {
+  
+  background: linear-gradient(45deg,  #000000, #000000);
+  box-shadow: 0 0 8px rgba(0, 140, 255, 0.7);
+}
+
+/* Questions Table */
+.table {
+  margin-top: 10px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.table th {
+  background: #333;
+  text-align: center;
+}
+
+.table td {
+  vertical-align: middle;
+}
+
+.btn-primary {
+  background: linear-gradient(45deg, #ffca28, #ff8f00);
+  border: none;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(45deg, #ff8f00, #ffca28);
+}
