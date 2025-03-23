@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 import { stepsData } from "../data/stepsData"; // Import the data
-import  "../app.css";
+import "../App.css";
 const DSAAccordion = () => {
   const [openStep, setOpenStep] = useState<number | null>(null);
   const [openLecture, setOpenLecture] = useState<number | null>(null);
@@ -33,7 +33,9 @@ const DSAAccordion = () => {
           {/* Step Title */}
           <div
             className={`step-title ${openStep === stepIndex ? "active" : ""}`}
-            onClick={() => setOpenStep(openStep === stepIndex ? null : stepIndex)}
+            onClick={() =>
+              setOpenStep(openStep === stepIndex ? null : stepIndex)
+            }
           >
             <strong>{step.title}</strong>
             {openStep === stepIndex ? <FaChevronUp /> : <FaChevronDown />}
@@ -44,11 +46,19 @@ const DSAAccordion = () => {
             step.lectures.map((lecture, lecIndex) => (
               <div key={lecIndex} className="lecture">
                 <div
-                  className={`lecture-title ${openLecture === lecIndex ? "active" : ""}`}
-                  onClick={() => setOpenLecture(openLecture === lecIndex ? null : lecIndex)}
+                  className={`lecture-title ${
+                    openLecture === lecIndex ? "active" : ""
+                  }`}
+                  onClick={() =>
+                    setOpenLecture(openLecture === lecIndex ? null : lecIndex)
+                  }
                 >
                   {lecture.title}
-                  {openLecture === lecIndex ? <FaChevronUp /> : <FaChevronDown />}
+                  {openLecture === lecIndex ? (
+                    <FaChevronUp />
+                  ) : (
+                    <FaChevronDown />
+                  )}
                 </div>
 
                 {/* Questions Table */}
@@ -65,9 +75,16 @@ const DSAAccordion = () => {
                       {lecture.questions.map((q, qIndex) => (
                         <tr key={qIndex}>
                           <td>{q.name}</td>
-                          <td className={getDifficultyColor(q.difficulty)}>{q.difficulty}</td>
+                          <td className={getDifficultyColor(q.difficulty)}>
+                            {q.difficulty}
+                          </td>
                           <td>
-                            <a href={q.link} className="btn btn-primary btn-sm" target="_blank" rel="noopener noreferrer">
+                            <a
+                              href={q.link}
+                              className="btn btn-primary btn-sm"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
                               Open
                             </a>
                           </td>
