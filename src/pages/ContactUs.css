@@ -1,0 +1,20 @@
+.contact-container {
+    max-width: 600px; /* Limit width */
+    margin: 500px ; /* Center align */
+    padding: 20px;
+    background-color: #222;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+  }
+  .contact-container h2 {
+    text-align: center;
+  }
+  
+  .card-contact-us {
+    height: 100%; /* Ensures all cards have equal height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+  }
+  
