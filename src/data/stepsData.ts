@@ -3,29 +3,78 @@ export const stepsData = [
     "title": "Module 1: Introduction To Programming",
     "lectures": [
       {
-        "title": "Lecture 1: Logic Questions + Input / Output + If - Else",
+        "title": "Lecture 1:  Input-Output and If - Else",
         "questions": [
-          { "name": "User Input / Output", "difficulty": "Easy", "link": "link" }
+          { "name": "Watermelon", "difficulty": "Easy", "link": "https://codeforces.com/problemset/problem/4/A" },
+          { "name": "Domino piling", "difficulty": "Easy", "link": "https://codeforces.com/problemset/problem/50/A" },
+          { "name": "Drinks", "difficulty": "Easy", "link": "https://codeforces.com/problemset/problem/200/B" },
+          { "name": "Divisibility Problem", "difficulty": "Easy", "link": "https://codeforces.com/problemset/problem/1328/A" },
+          { "name": "Candies and Two Sisters", "difficulty": "Easy", "link": "https://codeforces.com/problemset/problem/1335/A" },
+          { "name": "Soft Drinking", "difficulty": "Easy", "link": "https://codeforces.com/problemset/problem/151/A" },
+          { "name": "A+B Again?", "difficulty": "Easy", "link": "https://codeforces.com/problemset/problem/1999/A" },
+
         ]
       },
       {
         "title": "Lecture 2: Logic Questions + Loops",
         "questions": [
-          { "name": "Loop Basics", "difficulty": "Easy", "link": "link" }
+          { "name": "Loop Basics", "difficulty": "Easy", "link": "link" },
+          { "name": "Print first 50 numbers", "difficulty": "Easy", "link": "link" },
+          { "name": "Sum of first N Natural Numbers", "difficulty": "Easy", "link": "link" },
+          { "name": "Sum of squares of first N Natural Numbers", "difficulty": "Easy", "link": "link" },
+          { "name": "Soldier and Bananas", "difficulty": "Easy", "link": "https://codeforces.com/problemset/problem/546/A" },
+          { "name": "Maximum Multiple Sum", "difficulty": "Easy", "link": "https://codeforces.com/problemset/problem/1985/B" },
+          { "name": "Nth Term of AP", "difficulty": "Medium", "link": "https://www.geeksforgeeks.org/nth-term-of-ap-from-first-two-terms/" },
+          { "name": "Two Vessels", "difficulty": "Medium", "link": "https://codeforces.com/problemset/problem/1872/A" },
+          { "name": "Buy a Shovel", "difficulty": "Medium", "link": "https://codeforces.com/problemset/problem/732/A" },
+
+
         ]
       },
       {
-        "title": "Lecture 3: Loops in Depth - Pattern Problems",
+        "title": "Lecture 3:  Pattern Problems - Easy",
         "questions": [
-          { "name": "Pattern Printing", "difficulty": "Medium", "link": "link" }
+          { "name": "Half Pyramid", "difficulty": "Easy", "link": "https://www.geeksforgeeks.org/program-to-print-right-half-pyramid-pattern-star-pattern/" },
+          { "name": "Inverted Half Pyramid", "difficulty": "Easy", "link": "https://www.geeksforgeeks.org/program-to-print-inverted-right-half-pyramid-pattern-star-pattern/" },
+          { "name": "Left Half Pyramin=d", "difficulty": "Easy", "link": "https://www.geeksforgeeks.org/program-to-print-left-half-pyramid-pattern-star-pattern/" },
+          { "name": "Inverted Left Half Pyramid", "difficulty": "Easy", "link": "https://www.geeksforgeeks.org/program-to-print-inverted-left-half-pyramid-pattern-star-pattern/?ref=ml_lbp" },
+          { "name": "Full Pyramid", "difficulty": "Easy", "link": "https://www.geeksforgeeks.org/program-to-print-full-pyramid-pattern-star-pattern/" },
+          { "name": "Inverted Full Pyramid", "difficulty": "Easy", "link": "https://www.geeksforgeeks.org/program-to-print-inverted-full-pyramid-pattern-star-pattern/" },
+          { "name": "Half Diamond", "difficulty": "Easy", "link": "https://www.geeksforgeeks.org/program-to-print-half-diamond-star-pattern/" },
+          { "name": "Full Diamond", "difficulty": "Easy", "link": "https://www.geeksforgeeks.org/program-print-diamond-shape/" },
+          { "name": "Square Patterns", "difficulty": "Easy", "link": "https://www.geeksforgeeks.org/program-to-print-solid-and-hollow-square-patterns/" },
+
+
         ]
       },
       {
-        "title": "Lecture 4: Functions / Arrays / Strings",
+        "title": "Lecture 4:  Pattern Problems - Medium",
+        "questions": [
+          { "name": "Circle Pattern", "difficulty": "Medium", "link": "https://www.geeksforgeeks.org/program-print-circle-pattern/" },
+          { "name": "Rhombus Pattern", "difficulty": "Medium", "link": "https://www.geeksforgeeks.org/program-to-print-solid-and-hollow-rhombus-patterns/" },
+          { "name": "Butterfly", "difficulty": "Medium", "link": "https://www.geeksforgeeks.org/program-to-print-butterfly-pattern-star-pattern/" },
+          { "name": "Diagonal", "difficulty": "Medium", "link": "https://www.geeksforgeeks.org/c-programs-print-interesting-patterns/" },
+          { "name": "Arrow Pattern", "difficulty": "Medium", "link": "https://www.geeksforgeeks.org/program-print-arrow-pattern/" },
+          { "name": "Bridge", "difficulty": "Hard", "link": "https://www.geeksforgeeks.org/program-print-reverse-character-bridge-pattern/" },
+          { "name": "V and Inverted V", "difficulty": "Hard", "link": "https://www.geeksforgeeks.org/program-for-inverted-v-pattern/" },
+          { "name": "Hour Glass", "difficulty": "Medium", "link": "https://www.geeksforgeeks.org/hour-glass-pattern/" },
+          
+        ]
+      },
+      {
+        "title": "Lecture 5: Functions / Arrays / Strings",
         "questions": [
           { "name": "Functions Basics", "difficulty": "Easy", "link": "link" },
           { "name": "Array Basics", "difficulty": "Easy", "link": "link" },
-          { "name": "String Basics", "difficulty": "Easy", "link": "link" }
+          { "name": "String Basics", "difficulty": "Easy", "link": "link" },
+          { "name": "Meeting Friends", "difficulty": "Easy", "link": "https://codeforces.com/problemset/problem/723/A" },
+          { "name": "Remove Smallest", "difficulty": "Easy", "link": "https://codeforces.com/problemset/problem/1399/A" },
+          { "name": "Increasing", "difficulty": "Easy", "link": "https://codeforces.com/problemset/problem/1742/B" },
+          { "name": "Boy or Girl", "difficulty": "Easy", "link": "https://codeforces.com/problemset/problem/236/A" },
+          { "name": "Sale", "difficulty": "Medium", "link": "https://codeforces.com/problemset/problem/34/B" },
+          { "name": "Business trip", "difficulty": "Medium", "link": "https://codeforces.com/problemset/problem/149/A" },
+          { "name": "Promo", "difficulty": "Medium", "link": "https://codeforces.com/problemset/problem/1697/B" },
+
         ]
       }
     ]
