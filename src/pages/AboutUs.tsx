@@ -15,16 +15,30 @@ const AboutUs = () => {
   return (
     <>
       <NavbarComponent />
-      <div className="container text-white mt-5">
-        <h1 className="text-center mb-4">About Us</h1>
 
-        {/* Profile Section */}
-        <div className="about-container d-flex flex-column align-items-center">
-          <img src={profileImg} alt="Founder" className="profile-img rounded-circle shadow" />
-          <p className="text-center mt-3">
-            Welcome to <strong>Code With Ashraf</strong>! We are dedicated to helping students master programming and computer science with structured learning paths.
-          </p>
-        </div>
+{/* Profile Section */}
+<div className="about-container d-flex flex-column align-items-center mt-5">
+<h1 className="text-center mb-4">Instructor</h1>
+  
+  <div className="d-flex align-items-center text-center">
+    {/* Profile Image */}
+    <img src={profileImg} alt="Founder" className="profile-img rounded-circle shadow me-4" style={{ width: "150px", height: "150px" }} />
+
+    {/* Instructor Details */}
+    <div className="text-start">
+      <h3 className="mb-1">Muhammed Ashraf Bhura</h3>
+      <p className="mb-2">B.Tech - NIT Surat </p>
+      <p className="mb-2">Software Engineer  | Competitive Programmer | Educator</p>
+    </div>
+  </div>
+
+  {/* Welcome Message */}
+  <p className="text-center mt-4">
+    Welcome to <strong>Code With Ashraf</strong>! We are dedicated to helping students master programming and computer science with structured learning paths.
+  </p>
+</div>
+
+<div className="container text-white mt-5">
 
         {/* Course Offerings */}
         <h2 className="text-center mt-5">📚 Our Courses</h2>
