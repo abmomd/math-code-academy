@@ -72,14 +72,17 @@ const DSAAccordion = () => {
                     <table className="table table-bordered table-hover text-white">
                       <thead className="table-dark">
                         <tr>
+                          <th>Sr. No</th>
                           <th>Problem</th>
                           <th>Difficulty</th>
                           <th>Link</th>
+                          <th>Solution</th>
                         </tr>
                       </thead>
                       <tbody>
                         {lecture.questions.map((q, qIndex) => (
                           <tr key={qIndex}>
+                            <td>{q.srNo}</td>
                             <td>{q.name}</td>
                             <td className={getDifficultyColor(q.difficulty)}>
                               {q.difficulty}
@@ -92,6 +95,16 @@ const DSAAccordion = () => {
                                 rel="noopener noreferrer"
                               >
                                 Open
+                              </a>
+                            </td>
+                            <td>
+                              <a
+                                // href={q.solution}
+                                className="btn btn-tertiary btn-sm"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                              >
+                                Coming Soon
                               </a>
                             </td>
                           </tr>

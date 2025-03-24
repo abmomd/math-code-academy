@@ -55,7 +55,7 @@ body {
 .lecture-title:hover,
 .lecture-title.active {
   
-  background: linear-gradient(45deg,  #000000, #000000);
+  background: linear-gradient(45deg, #000000, #0033ff);
   box-shadow: 0 0 8px rgba(0, 140, 255, 0.7);
 }
 
