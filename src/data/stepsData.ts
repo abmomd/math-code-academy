@@ -5,7 +5,7 @@ export const stepsData = [
       {
         "title": "Lecture 1:  Input-Output and If - Else",
         "questions": [
-          { "srNo": "1", "name": "Watermelon", "difficulty": "Easy", "link": "https://codeforces.com/problemset/problem/4/A", "solution": "" },
+          { "srNo": "1", "name": "Watermelon", "difficulty": "Easy", "link": "https://codeforces.com/problemset/problem/4/A", "solution": "/articles/module01/lecture01/pairsVectorsArticle" },
           { "srNo": "2", "name": "Domino piling", "difficulty": "Easy", "link": "https://codeforces.com/problemset/problem/50/A", "solution": "" },
           { "srNo": "3", "name": "Drinks", "difficulty": "Easy", "link": "https://codeforces.com/problemset/problem/200/B", "solution": "" },
           { "srNo": "4", "name": "Divisibility Problem", "difficulty": "Easy", "link": "https://codeforces.com/problemset/problem/1328/A", "solution": "" },
@@ -83,9 +83,9 @@ export const stepsData = [
         {
           "title": "Lecture 1: Math Basics",
           "questions": [
-            { "srNo": "1", "name": "Grasshopper on a Line", "difficulty": "Easy", "link": "https://codeforces.com/problemset/problem/1837/A", "solution": "" },
-            { "srNo": "2", "name": "Rudolph and Cut the Rope", "difficulty": "Easy", "link": "https://codeforces.com/problemset/problem/1846/A", "solution": "" },
-            { "srNo": "3", "name": "Gregor and Cryptography", "difficulty": "Easy", "link": "https://codeforces.com/problemset/problem/1549/A", "solution": "" },
+            { "srNo": "1", "name": "Grasshopper on a Line", "difficulty": "Easy", "link": "https://codeforces.com/problemset/problem/1837/A", "solution": "/articles/module02/lecture01/grasshopperArticle" },
+            { "srNo": "2", "name": "Rudolph and Cut the Rope", "difficulty": "Easy", "link": "https://codeforces.com/problemset/problem/1846/A", "solution": "/articles/module02/lecture01/rudolphArticle" },
+            { "srNo": "3", "name": "Gregor and Cryptography", "difficulty": "Easy", "link": "https://codeforces.com/problemset/problem/1549/A", "solution": "/articles/module02/lecture01/gregorArticle" },
             { "srNo": "4", "name": "Replacing Elements", "difficulty": "Easy", "link": "https://codeforces.com/problemset/problem/1473/A", "solution": "" },
             { "srNo": "5", "name": "Turtle Math: Fast Three Task", "difficulty": "Medium", "link": "https://codeforces.com/problemset/problem/1933/B", "solution": "" },
             { "srNo": "6", "name": "Vasya and Socks", "difficulty": "Easy", "link": "https://codeforces.com/problemset/problem/460/A", "solution": "" },
@@ -183,13 +183,13 @@ export const stepsData = [
       {
         "title": "Lecture 1: Pairs and Vectors",
         "questions": [
-          { "srNo": "1","name": "Using Pairs", "difficulty": "Easy", "link": "link" }
+          { "srNo": "1","name": "Using Pairs", "difficulty": "Easy", "link": "link","solution": "" }
         ]
       },
       {
         "title": "Lecture 2: Maps",
         "questions": [
-          { "srNo": "1","name": "Using Maps", "difficulty": "Easy", "link": "link" }
+          { "srNo": "1","name": "Using Maps", "difficulty": "Easy", "link": "link", "solution": "" }
         ]
       }
     ]
@@ -200,31 +200,31 @@ export const stepsData = [
       {
         "title": "Lecture 1: Searching - Linear Search and Binary Search",
         "questions": [
-          { "srNo": "1","name": "Binary Search", "difficulty": "Medium", "link": "link" }
+          { "srNo": "1","name": "Binary Search", "difficulty": "Medium", "link": "link", "solution": "" }
         ]
       },
       {
         "title": "Lecture 2: Sorting",
         "questions": [
-          { "srNo": "1","name": "Sorting Techniques", "difficulty": "Medium", "link": "link" }
+          { "srNo": "1","name": "Sorting Techniques", "difficulty": "Medium", "link": "link", "solution": "" }
         ]
       },
       {
         "title": "Lecture 3: Array Problems - Easy",
         "questions": [
-          { "srNo": "1","name": "Basic Array Manipulations", "difficulty": "Easy", "link": "link" }
+          { "srNo": "1","name": "Basic Array Manipulations", "difficulty": "Easy", "link": "link", "solution": "" }
         ]
       },
       {
         "title": "Lecture 4: Array Problems - Medium",
         "questions": [
-          { "srNo": "1","name": "Intermediate Array Problems", "difficulty": "Medium", "link": "link" }
+          { "srNo": "1","name": "Intermediate Array Problems", "difficulty": "Medium", "link": "link", "solution": "" }
         ]
       },
       {
         "title": "Lecture 5: Array Problems - Hard",
         "questions": [
-          { "srNo": "1","name": "Advanced Array Problems", "difficulty": "Hard", "link": "link" }
+          { "srNo": "1","name": "Advanced Array Problems", "difficulty": "Hard", "link": "link", "solution": "" }
         ]
       }
     ]
@@ -235,19 +235,19 @@ export const stepsData = [
       {
         "title": "Lecture 1: Binary Search - Basics",
         "questions": [
-          { "srNo": "1","name": "Understanding Binary Search", "difficulty": "Easy", "link": "link" }
+          { "srNo": "1","name": "Understanding Binary Search", "difficulty": "Easy", "link": "link", "solution": "" }
         ]
       },
       {
         "title": "Lecture 2: Binary Search - Easy",
         "questions": [
-          { "srNo": "1","name": "Simple Binary Search Problems", "difficulty": "Easy", "link": "link" }
+          { "srNo": "1","name": "Simple Binary Search Problems", "difficulty": "Easy", "link": "link", "solution": "" }
         ]
       },
       {
         "title": "Lecture 3: Binary Search - Medium",
         "questions": [
-          { "srNo": "1","name": "Advanced Binary Search Problems", "difficulty": "Medium", "link": "link" }
+          { "srNo": "1","name": "Advanced Binary Search Problems", "difficulty": "Medium", "link": "link", "solution": "" }
         ]
       }
     ]
@@ -258,19 +258,19 @@ export const stepsData = [
       {
         "title": "Lecture 1: Easy Problems",
         "questions": [
-          { "srNo": "1","name": "Two Pointers Basics", "difficulty": "Easy", "link": "link" }
+          { "srNo": "1","name": "Two Pointers Basics", "difficulty": "Easy", "link": "link", "solution": "" }
         ]
       },
       {
         "title": "Lecture 2: Medium Problems",
         "questions": [
-          { "srNo": "1","name": "Sliding Window Problems", "difficulty": "Medium", "link": "link" }
+          { "srNo": "1","name": "Sliding Window Problems", "difficulty": "Medium", "link": "link", "solution": "" }
         ]
       },
       {
         "title": "Lecture 3: Hard Problems",
         "questions": [
-          { "srNo": "1","name": "Complex Sliding Window Problems", "difficulty": "Hard", "link": "link" }
+          { "srNo": "1","name": "Complex Sliding Window Problems", "difficulty": "Hard", "link": "link", "solution": "" }
         ]
       }
     ]
@@ -281,19 +281,19 @@ export const stepsData = [
       {
         "title": "Lecture 1: Easy Problems",
         "questions": [
-          { "srNo": "1","name": "Basic String Manipulations", "difficulty": "Easy", "link": "link" }
+          { "srNo": "1","name": "Basic String Manipulations", "difficulty": "Easy", "link": "link", "solution": "" }
         ]
       },
       {
         "title": "Lecture 2: Medium Problems",
         "questions": [
-          { "srNo": "1","name": "Intermediate String Problems", "difficulty": "Medium", "link": "link" }
+          { "srNo": "1","name": "Intermediate String Problems", "difficulty": "Medium", "link": "link", "solution": "" }
         ]
       },
       {
         "title": "Lecture 3: Hard Problems",
         "questions": [
-          { "srNo": "1","name": "Advanced String Problems", "difficulty": "Hard", "link": "link" }
+          { "srNo": "1","name": "Advanced String Problems", "difficulty": "Hard", "link": "link", "solution": "" }
         ]
       }
     ]
@@ -304,19 +304,19 @@ export const stepsData = [
       {
         "title": "Lecture 1: Easy Problems",
         "questions": [
-          { "srNo": "1","name": "Simple Recursion Examples", "difficulty": "Easy", "link": "link" }
+          { "srNo": "1","name": "Simple Recursion Examples", "difficulty": "Easy", "link": "link", "solution": "" }
         ]
       },
       {
         "title": "Lecture 2: Medium Problems",
         "questions": [
-          { "srNo": "1","name": "Intermediate Recursion Challenges", "difficulty": "Medium", "link": "link" }
+          { "srNo": "1","name": "Intermediate Recursion Challenges", "difficulty": "Medium", "link": "link", "solution": "" }
         ]
       },
       {
         "title": "Lecture 3: Hard Problems",
         "questions": [
-          { "srNo": "1","name": "Complex Recursion Problems", "difficulty": "Hard", "link": "link" }
+          { "srNo": "1","name": "Complex Recursion Problems", "difficulty": "Hard", "link": "link", "solution": "" }
         ]
       }
     ]
@@ -327,19 +327,19 @@ export const stepsData = [
       {
         "title": "Lecture 1: Easy Problems",
         "questions": [
-          { "srNo": "1","name": "Basic Matrix Operations", "difficulty": "Easy", "link": "link" }
+          { "srNo": "1","name": "Basic Matrix Operations", "difficulty": "Easy", "link": "link", "solution": "" }
         ]
       },
       {
         "title": "Lecture 2: Medium Problems",
         "questions": [
-          { "srNo": "1","name": "Matrix Traversal Problems", "difficulty": "Medium", "link": "link" }
+          { "srNo": "1","name": "Matrix Traversal Problems", "difficulty": "Medium", "link": "link", "solution": "" }
         ]
       },
       {
         "title": "Lecture 3: Hard Problems",
         "questions": [
-          { "srNo": "1","name": "Advanced Matrix Challenges", "difficulty": "Hard", "link": "link" }
+          { "srNo": "1","name": "Advanced Matrix Challenges", "difficulty": "Hard", "link": "link", "solution": "" }
         ]
       }
     ]
@@ -350,19 +350,19 @@ export const stepsData = [
       {
         "title": "Lecture 1: Easy Problems",
         "questions": [
-          { "srNo": "1","name": "Basic Matrix Operations", "difficulty": "Easy", "link": "link" }
+          { "srNo": "1","name": "Basic Matrix Operations", "difficulty": "Easy", "link": "link", "solution": "" }
         ]
       },
       {
         "title": "Lecture 2: Medium Problems",
         "questions": [
-          { "srNo": "1","name": "Matrix Traversal Problems", "difficulty": "Medium", "link": "link" }
+          { "srNo": "1","name": "Matrix Traversal Problems", "difficulty": "Medium", "link": "link", "solution": "" }
         ]
       },
       {
         "title": "Lecture 3: Hard Problems",
         "questions": [
-          { "srNo": "1","name": "Advanced Matrix Challenges", "difficulty": "Hard", "link": "link" }
+          { "srNo": "1","name": "Advanced Matrix Challenges", "difficulty": "Hard", "link": "link", "solution": "" }
         ]
       }
     ]

@@ -6,7 +6,6 @@ import "../App.css";
 import Intro from "./Intro";
 import NavbarComponent from "./NavbarComponent"; // Import the Navbar
 
-
 const DSAAccordion = () => {
   const [openStep, setOpenStep] = useState<number | null>(null);
   const [openLecture, setOpenLecture] = useState<number | null>(null);
@@ -90,7 +89,7 @@ const DSAAccordion = () => {
                             <td>
                               <a
                                 href={q.link}
-                                className="btn btn-primary btn-sm"
+                                className="btn btn btn-warning btn-sm"
                                 target="_blank"
                                 rel="noopener noreferrer"
                               >
@@ -99,12 +98,16 @@ const DSAAccordion = () => {
                             </td>
                             <td>
                               <a
-                                // href={q.solution}
-                                className="btn btn-tertiary btn-sm"
+                                href={q.solution === "" ? "#" : q.solution}
+                                className={`btn ${
+                                  q.solution === ""
+                                    ? "btn-tertiary"
+                                    : "btn-info"
+                                } btn-sm`}
                                 target="_blank"
                                 rel="noopener noreferrer"
                               >
-                                Coming Soon
+                                {q.solution === "" ? "Coming Soon" : "Link"}
                               </a>
                             </td>
                           </tr>
