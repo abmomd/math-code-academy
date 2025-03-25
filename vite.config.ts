@@ -8,9 +8,9 @@ export default defineConfig({
   },
   server: {
     port: 5174,
-    strictPort: true,
+    strictPort: true
   },
   preview: {
-    port: 4173,
+    port: 4173
   }
 });
