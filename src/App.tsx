@@ -1,6 +1,6 @@
 
 import ListGroup from "./components/ListGroup.tsx";
-import { HashRouter  as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ContactUs from "./pages/ContactUs.tsx";
 import AboutUs from "./pages/AboutUs.tsx";
 import ArticlePage from "./pages/Article.tsx";
