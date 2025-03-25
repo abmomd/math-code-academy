@@ -86,7 +86,7 @@ export const stepsData = [
             { "srNo": "1", "name": "Grasshopper on a Line", "difficulty": "Easy", "link": "https://codeforces.com/problemset/problem/1837/A", "solution": "/articles/module02/lecture01/grasshopperArticle" },
             { "srNo": "2", "name": "Rudolph and Cut the Rope", "difficulty": "Easy", "link": "https://codeforces.com/problemset/problem/1846/A", "solution": "/articles/module02/lecture01/rudolphArticle" },
             { "srNo": "3", "name": "Gregor and Cryptography", "difficulty": "Easy", "link": "https://codeforces.com/problemset/problem/1549/A", "solution": "/articles/module02/lecture01/gregorArticle" },
-            { "srNo": "4", "name": "Replacing Elements", "difficulty": "Easy", "link": "https://codeforces.com/problemset/problem/1473/A", "solution": "" },
+            { "srNo": "4", "name": "Replacing Elements", "difficulty": "Easy", "link": "https://codeforces.com/problemset/problem/1473/A", "solution": "/articles/module02/lecture01/replacingArticle" },
             { "srNo": "5", "name": "Turtle Math: Fast Three Task", "difficulty": "Medium", "link": "https://codeforces.com/problemset/problem/1933/B", "solution": "" },
             { "srNo": "6", "name": "Vasya and Socks", "difficulty": "Easy", "link": "https://codeforces.com/problemset/problem/460/A", "solution": "" },
             { "srNo": "7", "name": "Mocha and Math", "difficulty": "Easy", "link": "https://codeforces.com/problemset/problem/1559/A", "solution": "" },
