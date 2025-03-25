@@ -1,0 +1,107 @@
+.article-container {
+  background: #121212;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  max-width: 1000px;
+  margin: auto;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+
+.article-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 25px;
+  letter-spacing: 1.5px;
+  padding: 10px 20px;
+}
+
+
+.accordion-item {
+  background: #1e1e1e;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.accordion-button {
+  padding: 15px;
+  background: linear-gradient(45deg,  #000000e3, #000000);
+  box-shadow: 0 0 5px rgba(13, 247, 255, 0.7);
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.accordion-button:hover {
+  background: linear-gradient(45deg, #01eaff, #000000);
+  box-shadow: 0 0 10px rgba(255, 111, 97, 0.7);
+}
+
+.accordion-body {
+  background: #121212;
+  border-radius: 8px;
+  padding: 15px;
+  color: #ffffff;
+}
+
+
+.nav-tabs {
+  border-bottom: 2px solid #ffffff;
+}
+
+.nav-tabs .nav-link {
+  color: #f7ffff;
+  font-weight: bold;
+  border-radius: 8px 8px 0 0;
+}
+
+.nav-tabs .nav-link.active {
+  background: linear-gradient(135deg, #31f5ff, #1e90ff);
+  color: rgb(0, 0, 0);
+}
+
+.code-block {
+  background: #1e1e1e;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 1rem;
+  overflow-x: auto;
+  box-shadow: inset 0px 0px 8px rgba(0, 255, 255, 0.5);
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-size: 1rem;
+  color: #f8f8f2;
+}
+/* Prevent background and border changes when the accordion is opened */
+.accordion-button:not(.collapsed) {
+  background: linear-gradient(45deg,  #000000e3, #000000) !important;
+  color: white !important;
+  box-shadow: 0 0 5px rgba(13, 247, 255, 0.7) !important;
+}
+
+/* Ensure the accordion retains its original color when clicked */
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+
+/* Rotate the caret when expanded */
+.accordion-button::after {
+  transition: transform 0.3s ease-in-out;
+}
+
+.accordion-button:not(.collapsed)::after {
+  transform: rotate(180deg);
+}
+
