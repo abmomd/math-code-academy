@@ -198,31 +198,31 @@ export const stepsData = [
     "title": "Module 4: Array (Data Structure)",
     "lectures": [
       {
-        "title": "Lecture 1: Searching - Linear Search and Binary Search",
+        "title": "Lecture 1: Searching and Sorting Basics",
         "questions": [
           { "srNo": "1","name": "Binary Search", "difficulty": "Medium", "link": "link", "solution": "" }
         ]
       },
       {
-        "title": "Lecture 2: Sorting",
+        "title": "Lecture 2: Array Problems - Easy ",
         "questions": [
           { "srNo": "1","name": "Sorting Techniques", "difficulty": "Medium", "link": "link", "solution": "" }
         ]
       },
       {
-        "title": "Lecture 3: Array Problems - Easy",
+        "title": "Lecture 3: Array Problems - Medium",
         "questions": [
           { "srNo": "1","name": "Basic Array Manipulations", "difficulty": "Easy", "link": "link", "solution": "" }
         ]
       },
       {
-        "title": "Lecture 4: Array Problems - Medium",
+        "title": "Lecture 4: Array Problems - Hard",
         "questions": [
           { "srNo": "1","name": "Intermediate Array Problems", "difficulty": "Medium", "link": "link", "solution": "" }
         ]
       },
       {
-        "title": "Lecture 5: Array Problems - Hard",
+        "title": "Lecture 5: Array Problems - Codeforces",
         "questions": [
           { "srNo": "1","name": "Advanced Array Problems", "difficulty": "Hard", "link": "link", "solution": "" }
         ]
@@ -233,19 +233,19 @@ export const stepsData = [
     "title": "Module 5: Binary Search",
     "lectures": [
       {
-        "title": "Lecture 1: Binary Search - Basics",
+        "title": "Lecture 1: Binary Search - Easy",
         "questions": [
           { "srNo": "1","name": "Understanding Binary Search", "difficulty": "Easy", "link": "link", "solution": "" }
         ]
       },
       {
-        "title": "Lecture 2: Binary Search - Easy",
+        "title": "Lecture 2: Binary Search - Medium",
         "questions": [
           { "srNo": "1","name": "Simple Binary Search Problems", "difficulty": "Easy", "link": "link", "solution": "" }
         ]
       },
       {
-        "title": "Lecture 3: Binary Search - Medium",
+        "title": "Lecture 3: Binary Search - Codeforces",
         "questions": [
           { "srNo": "1","name": "Advanced Binary Search Problems", "difficulty": "Medium", "link": "link", "solution": "" }
         ]
@@ -272,6 +272,12 @@ export const stepsData = [
         "questions": [
           { "srNo": "1","name": "Complex Sliding Window Problems", "difficulty": "Hard", "link": "link", "solution": "" }
         ]
+      },
+      {
+        "title": "Lecture 3: Codeforces Problems",
+        "questions": [
+          { "srNo": "1","name": "Complex Sliding Window Problems", "difficulty": "Hard", "link": "link", "solution": "" }
+        ]
       }
     ]
   },
@@ -292,6 +298,12 @@ export const stepsData = [
       },
       {
         "title": "Lecture 3: Hard Problems",
+        "questions": [
+          { "srNo": "1","name": "Advanced String Problems", "difficulty": "Hard", "link": "link", "solution": "" }
+        ]
+      },
+      {
+        "title": "Lecture 3: Codeforces Problems",
         "questions": [
           { "srNo": "1","name": "Advanced String Problems", "difficulty": "Hard", "link": "link", "solution": "" }
         ]

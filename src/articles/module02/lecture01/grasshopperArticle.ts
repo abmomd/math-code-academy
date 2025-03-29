@@ -1,7 +1,7 @@
 
 const grasshopperArticle = {
     title: "Grasshopper on a Line",
-    content: "Pairs are used to store two values together...",
+    content: ``,
     example: `
   Input: 
     3
