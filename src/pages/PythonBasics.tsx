@@ -2,7 +2,6 @@ import { useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import "../App.css";
-import Intro from "../components/Intro";
 import NavbarComponent from "../components/NavbarComponent"; // Import the Navbar
 
 const PythonBasicsPage = () => {
