@@ -49,6 +49,7 @@ const ArticlePage: React.FC = () => {
 
       <div className="article-container">
         <h1 className="article-title">{article.title}</h1>
+        {/* <p>{article.content}</p> */}
 
         {/* Example Dropdown */}
         <div className="accordion mb-3" id="exampleAccordion">
