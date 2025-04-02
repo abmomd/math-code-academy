@@ -86,15 +86,15 @@ export const stepsData = [
             { "srNo": "1", "name": "Grasshopper on a Line", "difficulty": "Easy", "link": "https://codeforces.com/problemset/problem/1837/A", "solution": "/articles/module02/lecture01/grasshopperArticle" },
             { "srNo": "2", "name": "Rudolph and Cut the Rope", "difficulty": "Easy", "link": "https://codeforces.com/problemset/problem/1846/A", "solution": "/articles/module02/lecture01/rudolphArticle" },
             { "srNo": "3", "name": "Gregor and Cryptography", "difficulty": "Easy", "link": "https://codeforces.com/problemset/problem/1549/A", "solution": "/articles/module02/lecture01/gregorArticle" },
-            { "srNo": "4", "name": "Replacing Elements", "difficulty": "Easy", "link": "https://codeforces.com/problemset/problem/1473/A", "solution": "" },
-            { "srNo": "5", "name": "Turtle Math: Fast Three Task", "difficulty": "Medium", "link": "https://codeforces.com/problemset/problem/1933/B", "solution": "" },
-            { "srNo": "6", "name": "Vasya and Socks", "difficulty": "Easy", "link": "https://codeforces.com/problemset/problem/460/A", "solution": "" },
-            { "srNo": "7", "name": "Mocha and Math", "difficulty": "Easy", "link": "https://codeforces.com/problemset/problem/1559/A", "solution": "" },
-            { "srNo": "8", "name": "United We Stand", "difficulty": "Easy", "link": "https://codeforces.com/problemset/problem/1859/A", "solution": "" },
-            { "srNo": "9", "name": "Exciting Bets", "difficulty": "Medium", "link": "https://codeforces.com/problemset/problem/1543/A", "solution": "" },
-            { "srNo": "10", "name": "AvtoBus", "difficulty": "Medium", "link": "https://codeforces.com/problemset/problem/1679/A", "solution": "" },
-            { "srNo": "11", "name": "Everyone Loves to Sleep", "difficulty": "Medium", "link": "https://codeforces.com/problemset/problem/1714/A", "solution": "" },
-            { "srNo": "12", "name": "Bad Boy", "difficulty": "Medium", "link": "https://codeforces.com/problemset/problem/1537/B", "solution": "" }
+            { "srNo": "4", "name": "Replacing Elements", "difficulty": "Easy", "link": "https://codeforces.com/problemset/problem/1473/A", "solution": "/articles/module02/lecture01/replacingArticle" },
+            { "srNo": "5", "name": "Turtle Math: Fast Three Task", "difficulty": "Medium", "link": "https://codeforces.com/problemset/problem/1933/B", "solution": "/articles/module02/lecture01/turtlemathsArticle" },
+            { "srNo": "6", "name": "Vasya and Socks", "difficulty": "Easy", "link": "https://codeforces.com/problemset/problem/460/A", "solution": "/articles/module02/lecture01/vasyasocksArticle" },
+            { "srNo": "7", "name": "Mocha and Math", "difficulty": "Easy", "link": "https://codeforces.com/problemset/problem/1559/A", "solution": "/articles/module02/lecture01/mochamathArticle" },
+            { "srNo": "8", "name": "United We Stand", "difficulty": "Easy", "link": "https://codeforces.com/problemset/problem/1859/A", "solution": "/articles/module02/lecture01/unitedArticle" },
+            { "srNo": "9", "name": "Exciting Bets", "difficulty": "Medium", "link": "https://codeforces.com/problemset/problem/1543/A", "solution": "/articles/module02/lecture01/excitingbetsArticle" },
+            { "srNo": "10", "name": "AvtoBus", "difficulty": "Medium", "link": "https://codeforces.com/problemset/problem/1679/A", "solution": "/articles/module02/lecture01/avtobusArticle" },
+            { "srNo": "11", "name": "Everyone Loves to Sleep", "difficulty": "Medium", "link": "https://codeforces.com/problemset/problem/1714/A", "solution": "/articles/module02/lecture01/everyoneArticle" },
+            { "srNo": "12", "name": "Bad Boy", "difficulty": "Medium", "link": "https://codeforces.com/problemset/problem/1537/B", "solution": "/articles/module02/lecture01/badboyArticle" }
           ]
         },
         {
