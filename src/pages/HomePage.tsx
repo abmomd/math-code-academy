@@ -1,4 +1,3 @@
-import React from "react";
 import NavbarComponent from "../components/NavbarComponent";
 import "./HomePage.css";
 import profileImg from "../images/profile.jpg";
