@@ -9,6 +9,12 @@ const NavbarComponent = () => {
           <Nav.Link as={Link} to="/">
             Home
           </Nav.Link>
+          <Nav.Link as={Link} to="/home-page">
+            Home Page
+          </Nav.Link>
+          <Nav.Link as={Link} to="/dsa-course">
+            DSA Course
+          </Nav.Link>
           <Nav.Link as={Link} to="/python-basics">
             Python Basics
           </Nav.Link>

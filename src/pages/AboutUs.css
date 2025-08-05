@@ -32,7 +32,9 @@
   
   .card:hover, .card.active {
     transform: scale(1.05);
-    background: linear-gradient(45deg, #f3f1a6, #000000);
+    /* background: linear-gradient(45deg, #f3f1a6, #000000);
+     */
+    background-color: #329fff;
     box-shadow: 0 0 10px rgba(255, 67, 67, 0.7);
     color: rgb(0, 0, 0);
   }
