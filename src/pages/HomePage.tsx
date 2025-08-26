@@ -2,6 +2,7 @@ import NavbarComponent from "../components/NavbarComponent";
 import "./HomePage.css";
 import profileImg from "../images/profile.jpg";
 import profileFatema from "../images/Fatema_profile.jpeg";
+import { FaLinkedin } from "react-icons/fa";
 
 const Home = () => {
   return (
@@ -53,107 +54,8 @@ const Home = () => {
             <span className="whatsapp-text">Contact Now</span>
           </a>
         </section>
-
-        {/* Our Courses */}
-        <section className="bg-light text-center py-5">
-          <h2 className="section-title mb-5">Math Courses</h2>
-          <div className="row justify-content-center px-3">
-            {[
-              "Math Olympiads",
-              "IB / IGCSE /ICSE - Math",
-              "USA - AIME And AMC",
-              "USA - AP Courses",
-              "Canada - Gauss, Pascal, Fermat",
-              "UK - UKMT",
-              "India - RMO, INMO",
-              "IIT-JEE Foundation",
-              "SAT Math",
-              "NTSE / KVPY",
-            ].map((course, index) => (
-              <div className="col-10 col-sm-6 col-md-3 mb-4" key={index}>
-                <div className="card border-0 shadow-sm h-100 p-4 rounded-4 bg-light-blue">
-                  <div className="card-body d-flex flex-column align-items-center">
-                    <div className="mb-3 text-info fs-3">
-                      <i className="bi bi-journal-code"></i>
-                    </div>
-                    <h5 className="card-title fw-semibold">{course}</h5>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </section>
-
-        <section className="bg-light py-5">
-          <div className="container">
-            <h2 className="section-title text-center mb-5 fw-bold">
-              Math Courses
-              <div className="mx-auto mt-2"></div>
-            </h2>
-            <div className="row g-4">
-              {[
-                {
-                  name: "Math Olympiads",
-                  place: "USA",
-                  version: "AMC - American Mathematics Competitions",
-                  feedback:
-                    "AMC is a series of mathematics competitions that help students develop problem-solving skills and prepare for higher-level contests like AIME and USAMO. It is a great way to challenge students and enhance their mathematical thinking.",
-                },
-                {
-                  name: "Advanced Placements (AP) Courses",
-                  place: "USA",
-                  version: "AP PreCalculus , AP Calculus, AP Statistics",
-                  feedback: " ",
-                },
-                {
-                  name: "Twinkle Krishna",
-                  place: "India",
-                  version: "Physics - Electricity",
-                  feedback:
-                    "In Class 12, my son found the chapters on electricity and magnetism challenging. He took classes with Ashraf quite close to his board exams and his entrance exams. The classes helped him understand the concepts well. We found Ashraf's teaching style quite adaptive to the learner's requirements. And most important, Ashraf was able to inspire my son and instilled in him a desire to learn more about the topics.",
-                },
-              ].map((t, index) => (
-                <div className="col-sm-12 col-md-6 col-lg-4" key={index}>
-                  <div className="testimonial-card h-100 p-4 rounded-4 shadow-sm">
-                    <h5 className="fw-bold text-black">{t.name}</h5>
-                    <h6 className="text-primary fw-semibold mb-1">{t.place}</h6>
-                    <p className="text-muted mb-3">{t.version}</p>
-                    <p className="small text-black">{t.feedback}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* Our Courses */}
-        <section className="bg-light text-center py-5">
-          <h2 className="section-title mb-5">Programming Courses</h2>
-          <div className="row justify-content-center px-3">
-            {[
-              "DSA",
-              "Math Olympiads",
-              "Python for Kids",
-              "USACO & ZCO Prep",
-              "ZCO Prep",
-              "Competitive Programming",
-              "IIT-JEE Math",
-            ].map((course, index) => (
-              <div className="col-10 col-sm-6 col-md-3 mb-4" key={index}>
-                <div className="card border-0 shadow-sm h-100 p-4 rounded-4 bg-light-blue">
-                  <div className="card-body d-flex flex-column align-items-center">
-                    <div className="mb-3 text-info fs-3">
-                      <i className="bi bi-journal-code"></i>
-                    </div>
-                    <h5 className="card-title fw-semibold">{course}</h5>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </section>
-
-        {/* Contact CTA Section */}
+          
+        {/* Whatsapp Contact Section */}
         <section className="py-5 bg-white">
           <div className="container">
             <div className="row justify-content-center">
@@ -189,57 +91,173 @@ const Home = () => {
           </div>
         </section>
 
-        <section>
-          <div className="about-container d-flex flex-column align-items-center mt-5">
-            <h1 className="text-center mb-4">Instructors</h1>
-          </div>
-
-          {/* Profile Section */}
-          <div className="about-container d-flex flex-column align-items-center mt-5 mb-5">
-            {/* <h1 className="text-center mb-4">Instructor</h1> */}
-
-            <div className="d-flex align-items-center text-center">
-              {/* Profile Image */}
-              <img
-                src={profileImg}
-                alt="Founder"
-                className="profile-img rounded-circle shadow me-4"
-                style={{ width: "150px", height: "150px" }}
-              />
-
-              {/* Instructor Details */}
-              <div className="text-start">
-                <h3 className="mb-1">Muhammed Ashraf Bhura</h3>
-                <p className="mb-2">B.Tech - NIT Surat </p>
-                <p className="mb-2">Software Engineer | Educator</p>
+        {/* Our Courses */}
+        <section className="bg-light text-center py-5">
+          <h2 className="section-title mb-5">Math Courses</h2>
+          <div className="row justify-content-center px-3">
+            {[
+              "USA - AP Courses",
+              "USA - AMC,AIME, Mathcounts",
+              "Canada - Gauss, Pascal, Fermat",
+              "IB / IGCSE /ICSE - Math",
+              "A/O Level Math",
+              "Math Olympiads",
+              "UK - UKMT",
+              
+ 
+            ].map((course, index) => (
+              <div className="col-10 col-sm-6 col-md-3 mb-4" key={index}>
+                <div className="card border-0 shadow-sm h-100 p-4 rounded-4 bg-light-blue">
+                  <div className="card-body d-flex flex-column align-items-center">
+                    <div className="mb-3 text-info fs-3">
+                      <i className="bi bi-journal-code"></i>
+                    </div>
+                    <h5 className="card-title fw-semibold">{course}</h5>
+                  </div>
+                </div>
               </div>
-            </div>
+            ))}
           </div>
+        </section>
 
-          {/* Profile Section */}
-          <div className="about-container d-flex flex-column align-items-center mt-5 mb-5">
-            {/* <h1 className="text-center mb-4">Instructor</h1> */}
+        {/* Our Courses */}
+        <section className="bg-light text-center py-5">
+          <h2 className="section-title mb-5">Programming Courses</h2>
+          <div className="row justify-content-center px-3">
+            {[
+              "AP - CSE A",
+              "USA - USACO",
+              "Canada - CCC ",
+              "India - ZCO, INOI",
+              "Python Course",
+              "C++ Course",
+              "Competitive Programming",
 
-            <div className="d-flex align-items-center text-center">
-              {/* Profile Image */}
-              <img
-                src={profileFatema}
-                alt="Founder"
-                className="profile-img rounded-circle shadow me-4"
-                style={{ width: "150px", height: "150px" }}
-              />
+            ].map((course, index) => (
+              <div className="col-10 col-sm-6 col-md-3 mb-4" key={index}>
+                <div className="card border-0 shadow-sm h-100 p-4 rounded-4 bg-light-blue">
+                  <div className="card-body d-flex flex-column align-items-center">
+                    <div className="mb-3 text-info fs-3">
+                      <i className="bi bi-journal-code"></i>
+                    </div>
+                    <h5 className="card-title fw-semibold">{course}</h5>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
 
-              {/* Instructor Details */}
-              <div className="text-start">
-                <h3 className="mb-1">Fatema Bhatt</h3>
-                <p className="mb-2">MSc Math - NIT Surat </p>
-                <p className="mb-2">
-                  Educator | Math Enthusiast | Olympiad Mentor
-                </p>
+
+
+<section>
+  <div className="about-container d-flex flex-column align-items-center mt-5">
+    <h1 className="text-center mb-4">Instructors</h1>
+  </div>
+
+  {/* Profile Section */}
+  <div className="about-container d-flex flex-column align-items-center mt-5 mb-5">
+    <div className="d-flex align-items-center text-center">
+      {/* Profile Image */}
+      <img
+        src={profileImg}
+        alt="Founder"
+        className="profile-img rounded-circle shadow me-4"
+        style={{ width: "150px", height: "150px" }}
+      />
+
+      {/* Instructor Details */}
+      <div className="text-start">
+        <h3 className="mb-1">Muhammed Ashraf Bhura</h3>
+        <p className="mb-2">B.Tech - NIT Surat</p>
+        <p className="mb-2">Software Engineer | Educator</p>
+
+        {/* LinkedIn Button */}
+        <a
+          href="https://www.linkedin.com/in/muhammed-ashraf-bhura-099a95200/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn btn-outline-primary btn-sm d-flex align-items-center mt-2"
+          style={{ width: "fit-content" }}
+        >
+          <FaLinkedin className="me-2" /> LinkedIn
+        </a>
+      </div>
+    </div>
+  </div>
+
+  {/* Profile Section */}
+  <div className="about-container d-flex flex-column align-items-center mt-5 mb-5">
+    <div className="d-flex align-items-center text-center">
+      {/* Profile Image */}
+      <img
+        src={profileFatema}
+        alt="Founder"
+        className="profile-img rounded-circle shadow me-4"
+        style={{ width: "150px", height: "150px" }}
+      />
+
+      {/* Instructor Details */}
+      <div className="text-start">
+        <h3 className="mb-1">Fatema Bhatt</h3>
+        <p className="mb-2">MSc Math - NIT Surat</p>
+        <p className="mb-2">Educator | Math Enthusiast | Olympiad Mentor</p>
+
+        {/* LinkedIn Button */}
+        <a
+          href="https://www.linkedin.com/in/fatema-bhatt-172154196/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn btn-outline-primary btn-sm d-flex align-items-center mt-2"
+          style={{ width: "fit-content" }}
+        >
+          <FaLinkedin className="me-2" /> LinkedIn
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+        {/* Whatsapp Contact Section */}
+        <section className="py-5 bg-white">
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-12 col-md-10">
+                <div className="d-flex flex-column flex-md-row align-items-center justify-content-between bg-light-blue shadow-sm p-4 rounded-4 border border-light">
+                  <div className="mb-3 mb-md-0 text-center text-md-start">
+                    <h5 className="fw-bold mb-1">
+                      Have any queries? or For Free Trial Class
+                    </h5>
+                    <p className="mb-0">
+                      Check out our{" "}
+                      <a
+                        href="/faqs"
+                        className="text-primary text-decoration-underline"
+                      >
+                        FAQs
+                      </a>{" "}
+                      or reach out to us on WhatsApp
+                    </p>
+                  </div>
+                  <a
+                    href="https://wa.me/919586753377"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-success d-flex align-items-center gap-2 px-4 py-2 shadow-sm"
+                  >
+                    <i className="bi bi-whatsapp fs-5"></i>
+                    <span>Message Us on WhatsApp</span>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         </section>
+
 
         {/* Testimonials */}
         <section className="bg-light py-5">
