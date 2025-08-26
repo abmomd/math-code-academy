@@ -25,10 +25,10 @@ const Home = () => {
           </h2>
           <div className="row justify-content-center px-3">
             {[
-              "Expert Faculty",
-              "Structured Curriculum",
-              "Live Doubt Support",
-              "Olympiad & JEE Prep",
+              "1 on 1 Sessions",
+              "Qualified & Experienced Instructors",
+              "Tailored Study Plans",
+              "Interactive Teaching Methods",
             ].map((item, index) => (
               <div className="col-10 col-sm-6 col-md-3 mb-4" key={index}>
                 <div className="card border-0 shadow-sm h-100 p-4 rounded-4 bg-light-blue">
