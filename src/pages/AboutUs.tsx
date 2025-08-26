@@ -5,14 +5,8 @@ import profileFatema from "../images/Fatema_profile.jpeg";
 import { FaLinkedin } from "react-icons/fa";
 
 const AboutUs = () => {
-  const courses = [
-    { "name": "USACO", "description": "USACO (United States of America Computing Olympiad) is a prestigious programming competition for high school students in the USA. It helps select students for the International Olympiad in Informatics (IOI)." },
-    { "name": "ZCO / INOI", "description": "ZCO (Zonal Computing Olympiad) and INOI (Indian National Olympiad in Informatics) are India's gateway contests for IOI selection. Excelling in INOI can earn you a spot in the International Team." },
-    { "name": "CCC Course", "description": "The CCC (Canadian Computing Competition) is a programming contest by the University of Waterloo. It tests problem-solving skills and is a stepping stone to the CCO and IOI." },
-    { "name": "AP CSE", "description": "AP Computer Science (AP CSE) is an advanced placement course for high school students, primarily in the USA, covering fundamental programming and problem-solving concepts using Python or Java." },
-    { "name": "IGCSE CSE", "description": "IGCSE Computer Science is an internationally recognized curriculum covering programming, algorithms, and computational thinking. It lays the foundation for AI, ML, and advanced computing fields." }
-]
-;
+
+
 
   return (
     <>
