@@ -65,15 +65,8 @@ const Home = () => {
                     <h5 className="fw-bold mb-1">
                       Have any queries? or For Free Trial Class
                     </h5>
-                    <p className="mb-0">
-                      Check out our{" "}
-                      <a
-                        href="/faqs"
-                        className="text-primary text-decoration-underline"
-                      >
-                        FAQs
-                      </a>{" "}
-                      or reach out to us on WhatsApp
+ <p className="mb-0">
+                      Reach out to us on WhatsApp
                     </p>
                   </div>
                   <a
@@ -232,15 +225,8 @@ const Home = () => {
                     <h5 className="fw-bold mb-1">
                       Have any queries? or For Free Trial Class
                     </h5>
-                    <p className="mb-0">
-                      Check out our{" "}
-                      <a
-                        href="/faqs"
-                        className="text-primary text-decoration-underline"
-                      >
-                        FAQs
-                      </a>{" "}
-                      or reach out to us on WhatsApp
+ <p className="mb-0">
+                      Reach out to us on WhatsApp
                     </p>
                   </div>
                   <a
