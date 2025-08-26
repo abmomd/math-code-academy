@@ -9,9 +9,12 @@ const NavbarComponent = () => {
           <Nav.Link as={Link} to="/">
             Home
           </Nav.Link>
-          <Nav.Link as={Link} to="/python-basics">
-            Python Basics
+          <Nav.Link as={Link} to="/dsa-course">
+            Python Course
           </Nav.Link>
+          {/* <Nav.Link as={Link} to="/python-basics">
+            Python Basics
+          </Nav.Link> */}
           <Nav.Link as={Link} to="/about-us">
             About Us
           </Nav.Link>
@@ -19,7 +22,7 @@ const NavbarComponent = () => {
             Contact Us
           </Nav.Link>
         </Nav>
-        <Navbar.Brand className="ms-auto">Code With Ashraf</Navbar.Brand>
+        <Navbar.Brand className="ms-auto">Math Code Academy</Navbar.Brand>
       </Container>
     </Navbar>
   );
