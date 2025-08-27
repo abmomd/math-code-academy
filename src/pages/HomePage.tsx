@@ -2,6 +2,7 @@ import NavbarComponent from "../components/NavbarComponent";
 import "./HomePage.css";
 import profileImg from "../images/profile.jpg";
 import profileFatema from "../images/Fatema_profile.jpeg";
+import student from "../images/a.png";
 import { FaLinkedin } from "react-icons/fa";
 
 const Home = () => {
@@ -10,13 +11,53 @@ const Home = () => {
       <NavbarComponent />
       <div className="container-fluid p-0 ">
         {/* Hero Section */}
-        <section className="bg-white text-black text-center py-5">
+        {/* <section className="bg-white text-black text-center py-5">
           <h1 className="display-3 fw-bold">MathCode Academy</h1>
           <p className="lead fst-italic">Where Code Meets Math Excellence</p>
-          {/* <button className="btn btn-light btn-lg mt-4 px-5 py-2 shadow-sm">
+           <button className="btn btn-light btn-lg mt-4 px-5 py-2 shadow-sm">
             Explore Courses
-          </button> */}
-        </section>
+          </button> 
+        </section> */}
+
+        <section className="bg-dark text-white text-center py-5 d-flex flex-column align-items-center justify-content-center">
+  <h1 className="display-3 fw-bold">
+    MathCode <span className="text-primary">Academy</span>
+  </h1>
+  <p className="lead fst-italic">
+    Where Code Meets <span className="text-primary">Math Excellence</span>
+  </p>
+  <button className="btn btn-primary btn-lg mt-4 px-5 py-2 shadow">
+    Explore Courses
+  </button>
+</section>
+
+          <section className="bg-dark text-white text-center text-lg-start py-5">
+  <div className="container d-flex flex-column flex-lg-row align-items-center justify-content-between">
+    {/* Left Side: Text */}
+    <div className="mb-4 mb-lg-0">
+      <h1 className="display-3 fw-bold">
+        <span className="text-primary">Math Code </span>Academy
+      </h1>
+      <p className="lead fst-italic">
+        Where Code Meets <span className="text-primary">Math Excellence</span>
+      </p>
+      <button className="btn btn-primary btn-lg mt-4 px-5 py-2 shadow">
+        Explore Courses
+      </button>
+    </div>
+
+    {/* Right Side: Image */}
+    <div>
+      <img
+        src={student}
+        alt="Coding Illustration"
+        className="img-fluid"
+        style={{ maxWidth: "400px" }}
+      />
+    </div>
+  </div>
+</section>
+
 
         {/* Why Choose Us */}
         <section className="text-center py-5  bg-dark text-white">
