@@ -3,26 +3,36 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 
 const NavbarComponent = () => {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg">
+    <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect>
       <Container>
-        <Nav className="me-auto">
-          <Nav.Link as={Link} to="/">
-            Home
-          </Nav.Link>
-          <Nav.Link as={Link} to="/dsa-course">
-            Python Course
-          </Nav.Link>
-          {/* <Nav.Link as={Link} to="/python-basics">
-            Python Basics
-          </Nav.Link> */}
-          <Nav.Link as={Link} to="/about-us">
-            About Us
-          </Nav.Link>
-          <Nav.Link as={Link} to="/contact-us">
-            Contact Us
-          </Nav.Link>
-        </Nav>
-        <Navbar.Brand className="ms-auto">Math Code Academy</Navbar.Brand>
+        {/* Brand (on the left in mobile) */}
+        <Navbar.Brand as={Link} to="/">
+          Math Code Academy
+        </Navbar.Brand>
+
+        {/* Toggle button for mobile */}
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+
+        {/* Collapsible content */}
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="ms-auto">
+            <Nav.Link as={Link} to="/">
+              Home
+            </Nav.Link>
+            <Nav.Link as={Link} to="/dsa-course">
+              Python Course
+            </Nav.Link>
+            {/* <Nav.Link as={Link} to="/python-basics">
+              Python Basics
+            </Nav.Link> */}
+            <Nav.Link as={Link} to="/about-us">
+              About Us
+            </Nav.Link>
+            <Nav.Link as={Link} to="/contact-us">
+              Contact Us
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
       </Container>
     </Navbar>
   );
