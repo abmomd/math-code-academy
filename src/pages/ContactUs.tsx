@@ -27,7 +27,7 @@ const ContactUs = () => {
             <p className="mb-2">Bangalore, India</p>
           </div>
 
-          <div className="mb-3 text-start">
+          <div className="mb-3 text-start ">
             <h4>💬 Get in Touch:</h4>
             <p>
               Have questions or suggestions? Feel free to reach out! We’ll
@@ -35,16 +35,36 @@ const ContactUs = () => {
             </p>
           </div>
 
-          <div className="mt-3 text-start">
-            <a
-              href="mailto:support@codewithashraf.com"
-              className="btn btn-primary btn-lg"
-            >
-              Send an Email
-            </a>
-          </div>
         </div>
       </div>
+              {/* Whatsapp Contact Section */}
+        <section className="mt-5 py-5 ">
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-12 col-md-10">
+                <div className="d-flex flex-column flex-md-row align-items-center justify-content-between bg-light-blue shadow-sm p-4 rounded-4 border border-light">
+                  <div className="mb-3 mb-md-0 text-center text-md-start">
+                    <h5 className="fw-bold mb-1">
+                      Have any queries? or For Free Trial Class
+                    </h5>
+ <p className="mb-0">
+                      Reach out to us on WhatsApp
+                    </p>
+                  </div>
+                  <a
+                    href="https://wa.me/919586753377"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-success d-flex align-items-center gap-2 px-4 py-2 shadow-sm"
+                  >
+                    <i className="bi bi-whatsapp fs-5"></i>
+                    <span>Message Us on WhatsApp</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
     </>
   );
 };
