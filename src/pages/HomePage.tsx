@@ -2,48 +2,38 @@ import NavbarComponent from "../components/NavbarComponent";
 import "./HomePage.css";
 import profileImg from "../images/profile.jpg";
 import profileFatema from "../images/Fatema_profile.jpeg";
-import student from "../images/a.png";
+import student from "../images/studentGraphics.png";
 import { FaLinkedin } from "react-icons/fa";
+import CoursesSectionMaths from "../components/CoursesSectionMaths";
+import CoursesSectionProgramming from "../components/CoursesSectionProgramming";
+import CoursesSectionPhysics from "../components/CoursesSectionPhysics";
 
 const Home = () => {
   return (
     <>
       <NavbarComponent />
       <div className="container-fluid p-0 ">
-        {/* Hero Section */}
-        {/* <section className="bg-white text-black text-center py-5">
-          <h1 className="display-3 fw-bold">MathCode Academy</h1>
-          <p className="lead fst-italic">Where Code Meets Math Excellence</p>
-           <button className="btn btn-light btn-lg mt-4 px-5 py-2 shadow-sm">
-            Explore Courses
-          </button> 
-        </section> */}
 
-        <section className="bg-dark text-white text-center py-5 d-flex flex-column align-items-center justify-content-center">
-  <h1 className="display-3 fw-bold">
-    MathCode <span className="text-primary">Academy</span>
-  </h1>
-  <p className="lead fst-italic">
-    Where Code Meets <span className="text-primary">Math Excellence</span>
-  </p>
-  <button className="btn btn-primary btn-lg mt-4 px-5 py-2 shadow">
-    Explore Courses
-  </button>
-</section>
 
           <section className="bg-dark text-white text-center text-lg-start py-5">
   <div className="container d-flex flex-column flex-lg-row align-items-center justify-content-between">
     {/* Left Side: Text */}
     <div className="mb-4 mb-lg-0">
       <h1 className="display-3 fw-bold">
-        <span className="text-primary">Math Code </span>Academy
+        <span className="text">Math Code </span>Academy
       </h1>
       <p className="lead fst-italic">
-        Where Code Meets <span className="text-primary">Math Excellence</span>
+        Where Code Meets <span className="text-tertiary">Math Excellence</span>
       </p>
-      <button className="btn btn-primary btn-lg mt-4 px-5 py-2 shadow">
-        Explore Courses
-      </button>
+<a
+  href="https://wa.me/919586753377"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="btn btn-info btn-lg mt-4 px-5 py-2 shadow"
+>
+  Book a Free Trial Class Now !
+</a>
+
     </div>
 
     {/* Right Side: Image */}
@@ -58,7 +48,9 @@ const Home = () => {
   </div>
 </section>
 
-
+        <CoursesSectionMaths />
+        <CoursesSectionProgramming />
+        <CoursesSectionPhysics />
         {/* Why Choose Us */}
         <section className="text-center py-5  bg-dark text-white">
           <h2 className="section-title mb-5 text-white">
@@ -67,9 +59,9 @@ const Home = () => {
           <div className="row justify-content-center px-3">
             {[
               "1 on 1 Sessions",
-              "Qualified & Experienced Instructors",
+              "Experienced Instructors",
               "Tailored Study Plans",
-              "Interactive Teaching Methods",
+              "Curated Practice Problems",
             ].map((item, index) => (
               <div className="col-10 col-sm-6 col-md-3 mb-4" key={index}>
                 <div className="card border-0 shadow-sm h-100 p-4 rounded-4 bg-light-blue">
@@ -97,7 +89,7 @@ const Home = () => {
         </section>
           
         {/* Whatsapp Contact Section */}
-        <section className="py-5 bg-white">
+        <section className="py-5 bg-dark">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-12 col-md-10">
@@ -125,72 +117,13 @@ const Home = () => {
           </div>
         </section>
 
-        {/* Our Courses */}
-        <section className="bg-light text-center py-5">
-          <h2 className="section-title mb-5">Math Courses</h2>
-          <div className="row justify-content-center px-3">
-            {[
-              "USA - AP Courses",
-              "USA - AMC,AIME, Mathcounts",
-              "Canada - Gauss, Pascal, Fermat",
-              "IB / IGCSE /ICSE - Math",
-              "A/O Level Math",
-              "Math Olympiads",
-              "UK - UKMT",
-              
- 
-            ].map((course, index) => (
-              <div className="col-10 col-sm-6 col-md-3 mb-4" key={index}>
-                <div className="card border-0 shadow-sm h-100 p-4 rounded-4 bg-light-blue">
-                  <div className="card-body d-flex flex-column align-items-center">
-                    <div className="mb-3 text-info fs-3">
-                      <i className="bi bi-journal-code"></i>
-                    </div>
-                    <h5 className="card-title fw-semibold">{course}</h5>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </section>
-
-        {/* Our Courses */}
-        <section className="bg-light text-center py-5">
-          <h2 className="section-title mb-5">Programming Courses</h2>
-          <div className="row justify-content-center px-3">
-            {[
-              "AP - CSE A",
-              "USA - USACO",
-              "Canada - CCC ",
-              "India - ZCO, INOI",
-              "Python Course",
-              "C++ Course",
-              "Competitive Programming",
-
-            ].map((course, index) => (
-              <div className="col-10 col-sm-6 col-md-3 mb-4" key={index}>
-                <div className="card border-0 shadow-sm h-100 p-4 rounded-4 bg-light-blue">
-                  <div className="card-body d-flex flex-column align-items-center">
-                    <div className="mb-3 text-info fs-3">
-                      <i className="bi bi-journal-code"></i>
-                    </div>
-                    <h5 className="card-title fw-semibold">{course}</h5>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </section>
-
-
-
-<section>
-  <div className="about-container d-flex flex-column align-items-center mt-5">
+<section className="bg-dark">
+  <div className="about-container d-flex flex-column align-items-center">
     <h1 className="text-center mb-4">Instructors</h1>
   </div>
 
   {/* Profile Section */}
-  <div className="about-container d-flex flex-column align-items-center mt-5 mb-5">
+  <div className="about-containe d-flex flex-column align-items-center mt-5 mb-5">
     <div className="d-flex align-items-center text-center">
       {/* Profile Image */}
       <img
@@ -221,7 +154,7 @@ const Home = () => {
   </div>
 
   {/* Profile Section */}
-  <div className="about-container d-flex flex-column align-items-center mt-5 mb-5">
+  <div className="about-container d-flex flex-column align-items-center mt-5">
     <div className="d-flex align-items-center text-center">
       {/* Profile Image */}
       <img
@@ -257,7 +190,7 @@ const Home = () => {
 
 
         {/* Whatsapp Contact Section */}
-        <section className="py-5 bg-white">
+        <section className="py-5 bg-dark">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-12 col-md-10">
