@@ -103,6 +103,22 @@
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
     background-color: #ffffff !important;
   }
+
+
+.courses-component .card {
+  background-color: #000 !important;
+  color: #fff !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.courses-component .card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.6);
+  background-color: #000 !important;
+}
+
+
+
   .bg-light-blue {
     background-color: #f0f8ff; /* Light Alice Blue */
     color: #212529;

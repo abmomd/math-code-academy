@@ -1,12 +1,12 @@
 import NavbarComponent from "../components/NavbarComponent";
 import "./HomePage.css";
-import profileImg from "../images/profile.jpg";
-import profileFatema from "../images/Fatema_profile.jpeg";
-import student from "../images/studentGraphics.png";
-import { FaLinkedin } from "react-icons/fa";
+import HomePageIntro from "../components/HomePageIntro";
 import CoursesSectionMaths from "../components/CoursesSectionMaths";
 import CoursesSectionProgramming from "../components/CoursesSectionProgramming";
 import CoursesSectionPhysics from "../components/CoursesSectionPhysics";
+import Instructors from "../components/Instructor";
+import WhatsappFloatingButton from "../components/WhatsappFloatingButton";
+import WhatsappContactUs from "../components/WhatsappContactUs";
 
 const Home = () => {
   return (
@@ -15,42 +15,14 @@ const Home = () => {
       <div className="container-fluid p-0 ">
 
 
-          <section className="bg-dark text-white text-center text-lg-start py-5">
-  <div className="container d-flex flex-column flex-lg-row align-items-center justify-content-between">
-    {/* Left Side: Text */}
-    <div className="mb-4 mb-lg-0">
-      <h1 className="display-3 fw-bold">
-        <span className="text">Math Code </span>Academy
-      </h1>
-      <p className="lead fst-italic">
-        Where Code Meets <span className="text-tertiary">Math Excellence</span>
-      </p>
-<a
-  href="https://wa.me/919586753377"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="btn btn-info btn-lg mt-4 px-5 py-2 shadow"
->
-  Book a Free Trial Class Now !
-</a>
-
-    </div>
-
-    {/* Right Side: Image */}
-    <div>
-      <img
-        src={student}
-        alt="Coding Illustration"
-        className="img-fluid"
-        style={{ maxWidth: "400px" }}
-      />
-    </div>
-  </div>
-</section>
-
+        {/* Intro Section */}
+        <HomePageIntro />
+        
+        {/* Courses Sections */}
         <CoursesSectionMaths />
         <CoursesSectionProgramming />
         <CoursesSectionPhysics />
+
         {/* Why Choose Us */}
         <section className="text-center py-5  bg-dark text-white">
           <h2 className="section-title mb-5 text-white">
@@ -76,147 +48,19 @@ const Home = () => {
             ))}
           </div>
           {/* WhatsApp Floating Button */}
-          <a
-            href="https://wa.me/919586753377"
-            className="whatsapp-float"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Chat on WhatsApp"
-          >
-            <i className="bi bi-whatsapp"></i>
-            <span className="whatsapp-text">Contact Now</span>
-          </a>
+          <WhatsappFloatingButton />
         </section>
           
-        {/* Whatsapp Contact Section */}
-        <section className="py-5 bg-dark">
-          <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-12 col-md-10">
-                <div className="d-flex flex-column flex-md-row align-items-center justify-content-between bg-light-blue shadow-sm p-4 rounded-4 border border-light">
-                  <div className="mb-3 mb-md-0 text-center text-md-start">
-                    <h5 className="fw-bold mb-1">
-                      Have any queries? or For Free Trial Class
-                    </h5>
- <p className="mb-0">
-                      Reach out to us on WhatsApp
-                    </p>
-                  </div>
-                  <a
-                    href="https://wa.me/919586753377"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="btn btn-success d-flex align-items-center gap-2 px-4 py-2 shadow-sm"
-                  >
-                    <i className="bi bi-whatsapp fs-5"></i>
-                    <span>Message Us on WhatsApp</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
 
-<section className="bg-dark">
-  <div className="about-container d-flex flex-column align-items-center">
-    <h1 className="text-center mb-4">Instructors</h1>
-  </div>
 
-  {/* Profile Section */}
-  <div className="about-containe d-flex flex-column align-items-center mt-5 mb-5">
-    <div className="d-flex align-items-center text-center">
-      {/* Profile Image */}
-      <img
-        src={profileImg}
-        alt="Founder"
-        className="profile-img rounded-circle shadow me-4"
-        style={{ width: "150px", height: "150px" }}
-      />
+        {/* Instructors Section */}
+        <Instructors/>
 
-      {/* Instructor Details */}
-      <div className="text-start">
-        <h3 className="mb-1">Muhammed Ashraf Bhura</h3>
-        <p className="mb-2">B.Tech - NIT Surat</p>
-        <p className="mb-2">Software Engineer | Educator</p>
-
-        {/* LinkedIn Button */}
-        <a
-          href="https://www.linkedin.com/in/muhammed-ashraf-bhura-099a95200/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="btn btn-outline-primary btn-sm d-flex align-items-center mt-2"
-          style={{ width: "fit-content" }}
-        >
-          <FaLinkedin className="me-2" /> LinkedIn
-        </a>
-      </div>
-    </div>
-  </div>
-
-  {/* Profile Section */}
-  <div className="about-container d-flex flex-column align-items-center mt-5">
-    <div className="d-flex align-items-center text-center">
-      {/* Profile Image */}
-      <img
-        src={profileFatema}
-        alt="Founder"
-        className="profile-img rounded-circle shadow me-4"
-        style={{ width: "150px", height: "150px" }}
-      />
-
-      {/* Instructor Details */}
-      <div className="text-start">
-        <h3 className="mb-1">Fatema Bhatt</h3>
-        <p className="mb-2">MSc Math - NIT Surat</p>
-        <p className="mb-2">Educator | Math Enthusiast | Olympiad Mentor</p>
-
-        {/* LinkedIn Button */}
-        <a
-          href="https://www.linkedin.com/in/fatema-bhatt-172154196/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="btn btn-outline-primary btn-sm d-flex align-items-center mt-2"
-          style={{ width: "fit-content" }}
-        >
-          <FaLinkedin className="me-2" /> LinkedIn
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
+        {/* WhatsApp Contact Us Section */}
+        <WhatsappContactUs />
 
 
 
-
-
-        {/* Whatsapp Contact Section */}
-        <section className="py-5 bg-dark">
-          <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-12 col-md-10">
-                <div className="d-flex flex-column flex-md-row align-items-center justify-content-between bg-light-blue shadow-sm p-4 rounded-4 border border-light">
-                  <div className="mb-3 mb-md-0 text-center text-md-start">
-                    <h5 className="fw-bold mb-1">
-                      Have any queries? or For Free Trial Class
-                    </h5>
- <p className="mb-0">
-                      Reach out to us on WhatsApp
-                    </p>
-                  </div>
-                  <a
-                    href="https://wa.me/919586753377"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="btn btn-success d-flex align-items-center gap-2 px-4 py-2 shadow-sm"
-                  >
-                    <i className="bi bi-whatsapp fs-5"></i>
-                    <span>Message Us on WhatsApp</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
 
 
         {/* Testimonials */}
