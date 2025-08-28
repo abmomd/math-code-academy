@@ -1,5 +1,6 @@
 import React from "react";
 
+
 interface Course {
   level: string;
   title: string;
@@ -62,7 +63,7 @@ const courses: Course[] = [
 
 const CoursesSectionMaths: React.FC = () => {
   return (
-    <section className="bg-dark text-white py-5">
+    <section className="bg-dark text-white py-5 courses-component">
       <div className="container">
         <h2 className="text-center fw-bold mb-5">Math Courses</h2>
         <div className="row justify-content-center g-4">
