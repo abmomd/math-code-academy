@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://www.mathcodeacademy.in/</loc>
+    <lastmod>2025-08-31</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Our Courses -->
+  <url>
+    <loc>https://www.mathcodeacademy.in/our-courses</loc>
+    <lastmod>2025-08-31</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Testimonials -->
+  <url>
+    <loc>https://www.mathcodeacademy.in/testimonials</loc>
+    <lastmod>2025-08-31</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- About Us -->
+  <url>
+    <loc>https://www.mathcodeacademy.in/about-us</loc>
+    <lastmod>2025-08-31</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Contact Us -->
+  <url>
+    <loc>https://www.mathcodeacademy.in/contact-us</loc>
+    <lastmod>2025-08-31</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Optional future pages -->
+  <url>
+    <loc>https://www.mathcodeacademy.in/python-basics</loc>
+    <lastmod>2025-08-31</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>
