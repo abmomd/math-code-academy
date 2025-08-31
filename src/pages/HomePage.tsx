@@ -9,14 +9,29 @@ import WhatsappFloatingButton from "../components/WhatsappFloatingButton";
 import WhatsappContactUs from "../components/WhatsappContactUs";
 import WhyChooseUs from "../components/WhyChooseUs";
 import Testimonials from "../components/Testimonials";
+import keywords from "../data/keywords.json";
+import { Helmet } from "react-helmet-async";
+
+
 
 const Home = () => {
   return (
     <>
       <NavbarComponent />
+      <Helmet>
+        <title>MathCode Academy - Learn Math, Physics & Programming</title>
+        <meta
+          name="description"
+          content="Join MathCode Academy to master Math, Physics, and Programming with expert instructors. Learn for competitive exams, coding olympiads, and real-world problem solving."
+        />
+        <meta
+          name="keywords"
+          content={keywords.join(", ")}
+        />
+      </Helmet>
       <div className="container-fluid p-0 ">
 
-
+      
         {/* Intro Section */}
         <HomePageIntro />
         
