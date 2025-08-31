@@ -3,6 +3,13 @@ import React from "react";
 const Testimonials: React.FC = () => {
   const testimonials = [
     {
+      name: "Mitul Gandhi",
+      place: "USA",
+      version: "Python Programming - Robotics",
+      feedback:
+        "Riansh has been learning programming with Ashraf since the last few months, and he is really excited, and looks forward to the classes. He has been able to apply the Python concepts he learnt to his robotics competitions. I found Ashraf's classes focused, productive and useful, and his teaching style to be organized. I highly recommend classes with him.",
+    },
+    {
       name: "Gemy M George",
       place: "USA",
       version: "Programming Competition - USACO",

@@ -93,7 +93,7 @@ const CoursesSectionProgramming: React.FC = () => {
                     {/* <a href="#" className="btn btn-info btn-sm  px-3">
                       Book Demo
                     </a> */}
-                    <a href="#" className="btn btn-info btn-sm px-3">
+                    <a href="contact-us" className="btn btn-info btn-sm px-3">
                       Explore Course
                     </a>
                   </div>
