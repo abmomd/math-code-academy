@@ -9,8 +9,7 @@ import WhatsappFloatingButton from "../components/WhatsappFloatingButton";
 import WhatsappContactUs from "../components/WhatsappContactUs";
 import WhyChooseUs from "../components/WhyChooseUs";
 import Testimonials from "../components/Testimonials";
-import keywords from "../data/keywords.json";
-import { Helmet } from "react-helmet-async";
+
 
 
 
