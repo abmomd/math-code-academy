@@ -18,17 +18,7 @@ const Home = () => {
   return (
     <>
       <NavbarComponent />
-      <Helmet>
-        <title>MathCode Academy - Learn Math, Physics & Programming</title>
-        <meta
-          name="description"
-          content="Join MathCode Academy to master Math, Physics, and Programming with expert instructors. Learn for competitive exams, coding olympiads, and real-world problem solving."
-        />
-        <meta
-          name="keywords"
-          content={keywords.join(", ")}
-        />
-      </Helmet>
+
       <div className="container-fluid p-0 ">
 
       
