@@ -12,44 +12,22 @@ interface Course {
 const courses: Course[] = [
   {
     level: "USA",
-    title: "AP Physics 1 : Algebra Based",
+    title: "AP Physics: Algebra Based",
     students: "3200 Past Students",
-    desc: "For students preparing for AP Physics 1 exam.",
+    desc: "For students preparing for AP Physics 1 and AP Physics 2 exam.",
     price: "₹1499",
     oldPrice: "₹1999",
   },
+
   {
     level: "USA",
-    title: "AP Physics 2 : Algebra Based",
-    students: "4100 Past Students",
-    desc: "For students preparing for AP Physics 2 exam.",
-    price: "₹2499",
-    oldPrice: "₹2999",
-  },
-  {
-    level: "USA",
-    title: "AP Physics C : Mechanics",
+    title: "AP Physics: Calculus Based",
     students: "2800 Past Students",
-    desc: "For students preparing for AP Physics C: Mechanics exam.",
+    desc: "For students preparing for AP Physics C: Mechanics and AP Physics C: Electricity and Magnetism exam.",
     price: "₹1999",
     oldPrice: "₹2499",
   },
-  {
-    level: "USA",
-    title: "AP Physics C : Electricity and Magnetism",
-    students: "3500 Past Students",
-    desc: "For students preparing for AP Physics C: E&M exam.",
-    price: "₹2299",
-    oldPrice: "₹2799",
-  },
-  {
-    level: "Cambridge",
-    title: "IGCSE Physics",
-    students: "2700 Past Students",
-    desc: "Comprehensive IGCSE Physics course for all levels.",
-    price: "₹2399",
-    oldPrice: "₹2999",
-  },
+
 ];
 
 const CoursesSectionPhysics: React.FC = () => {
