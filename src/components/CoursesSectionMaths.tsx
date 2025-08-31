@@ -15,7 +15,7 @@ const courses: Course[] = [
     level: "USA",
     title: "AP Courses",
     students: "3200 Past Students",
-    desc: "For students preparing for AP Calculus, Physics, and CS exams.",
+    desc: "AP Pre-Calculus, AP Calculus AB/BC and AP Statistics for high school students.",
     price: "₹1499",
     oldPrice: "₹1999",
   },
@@ -23,7 +23,7 @@ const courses: Course[] = [
     level: "USA",
     title: "AMC, AIME, Mathcounts",
     students: "4100 Past Students",
-    desc: "For US math competition preparation at middle and high school levels.",
+    desc: "AMC - American Mathematics Competitions and Mathcounts preparation.",
     price: "₹2499",
     oldPrice: "₹2999",
   },
@@ -102,7 +102,7 @@ const CoursesSectionMaths: React.FC = () => {
                     {/* <a href="#" className="btn btn-info btn-sm  px-3">
                       Book Demo
                     </a> */}
-                    <a href="#" className="btn btn-info btn-sm px-3">
+                    <a href="/contact-us" className="btn btn-info btn-sm px-3">
                       Explore Course
                     </a>
                   </div>

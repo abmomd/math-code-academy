@@ -49,3 +49,8 @@
   transform: translateY(-6px);
   box-shadow: 0 12px 25px rgba(0, 0, 0, 0.6);
 }
+
+body {
+  background-color: #212529; /* Bootstrap dark */
+  color: white;
+}

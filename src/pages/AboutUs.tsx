@@ -2,6 +2,8 @@ import NavbarComponent from "../components/NavbarComponent";
 import "./AboutUs.css"; // Add CSS for styling
 import profileImg from "../images/profile.jpg";
 import profileFatema from "../images/Fatema_profile.jpeg";
+import WhatsappContactUs from "../components/WhatsappContactUs";
+import WhatsappFloatingButton from "../components/WhatsappFloatingButton";
 import { FaLinkedin } from "react-icons/fa";
 
 const AboutUs = () => {
@@ -13,7 +15,7 @@ const AboutUs = () => {
       <NavbarComponent />
 
     
-<section>
+<section className="bg-dark text-white py-5">
   <div className="about-container d-flex flex-column align-items-center mt-5">
     <h1 className="text-center mb-4">Instructors</h1>
   </div>
@@ -79,38 +81,11 @@ const AboutUs = () => {
       </div>
     </div>
   </div>
+  <WhatsappContactUs />
 </section>
 
-            {/* Whatsapp Contact Section */}
-        <section className="py-5 ">
-          <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-12 col-md-10">
-                <div className="d-flex flex-column flex-md-row align-items-center justify-content-between bg-light-blue shadow-sm p-4 rounded-4 border border-light">
-                  <div className="mb-3 mb-md-0 text-center text-md-start">
-                    <h5 className="fw-bold mb-1">
-                      Have any queries? or For Free Trial Class
-                    </h5>
-                    <p className="mb-0">
-                      Reach out to us on WhatsApp
-                    </p>
-                  </div>
-                  <a
-                    href="https://wa.me/919586753377"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="btn btn-success d-flex align-items-center gap-2 px-4 py-2 shadow-sm"
-                  >
-                    <i className="bi bi-whatsapp fs-5"></i>
-                    <span>Message Us on WhatsApp</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-
+      
+      <WhatsappFloatingButton />
 
     </>
     

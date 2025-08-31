@@ -19,8 +19,11 @@ const NavbarComponent = () => {
             <Nav.Link as={Link} to="/">
               Home
             </Nav.Link>
-            <Nav.Link as={Link} to="/dsa-course">
-              Python Course
+            <Nav.Link as={Link} to="/our-courses">
+              Our Courses
+            </Nav.Link>
+            <Nav.Link as={Link} to="/testimonials">
+              Testimonials
             </Nav.Link>
             {/* <Nav.Link as={Link} to="/python-basics">
               Python Basics
