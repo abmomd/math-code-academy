@@ -7,8 +7,12 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "postbuild": "react-snap"
   },
+  "reactSnap": {
+  "inlineCss": true
+},
   "dependencies": {
     "@tailwindcss/vite": "^4.0.15",
     "bootstrap": "^5.3.3",
@@ -19,6 +23,7 @@
     "react-helmet-async": "^2.0.5",
     "react-icons": "^5.5.0",
     "react-router-dom": "^7.4.0",
+    "react-snap": "^1.23.0",
     "react-syntax-highlighter": "^15.6.6"
   },
   "devDependencies": {
@@ -36,4 +41,5 @@
     "typescript-eslint": "^8.24.1",
     "vite": "^6.2.0"
   }
+
 }
