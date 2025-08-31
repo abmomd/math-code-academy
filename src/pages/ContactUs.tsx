@@ -1,12 +1,17 @@
 import NavbarComponent from "../components/NavbarComponent";
-import "./ContactUs.css";
-
+// import "./ContactUs.css";
+import "./HomePage.css";
+import WhatsappContactUs from "../components/WhatsappContactUs";
+import WhatsappFloatingButton from "../components/WhatsappFloatingButton";
 const ContactUs = () => {
   return (
     <>
       <NavbarComponent />
-      <div className="container-fluid text-white mt-5 d-flex flex-column w-100">
-        <h1 className="mb-4 text-center">Contact Us</h1>
+
+            <div className="container-fluid bg-dark text-white d-flex flex-column w-100 mt-0">
+        
+        <h1 className="mb-4 text-center bg-dark "></h1>
+            <h2 className="mb-4 text-center">For more details about the course, please contact us and let's discuss.</h2>
 
         <div
           className="card-contact-us bg-dark text-white shadow-lg p-4 w-100 mx-auto"
@@ -27,23 +32,17 @@ const ContactUs = () => {
             <p className="mb-2">Bangalore, India</p>
           </div>
 
-          <div className="mb-3 text-start">
+          <div className="mb-3 text-start ">
             <h4>💬 Get in Touch:</h4>
             <p>
-              Have questions or suggestions? Feel free to reach out! We’ll
-              respond within 24 hours.
+              We’ll respond within 24 hours.
             </p>
           </div>
 
-          <div className="mt-3 text-start">
-            <a
-              href="mailto:support@codewithashraf.com"
-              className="btn btn-primary btn-lg"
-            >
-              Send an Email
-            </a>
-          </div>
         </div>
+        <WhatsappContactUs />
+        <WhatsappFloatingButton />
+
       </div>
     </>
   );
